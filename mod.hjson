@@ -1,5 +1,5 @@
 name: Endrium Expanded
 description: Expansion for the Endrium 2 mod featuring new factions, which have their own unique technology.
 minGameVersion: 140.4
-dependencies: https://github.com/VaporSpace2/endrium-2/tree/V7-Main
+dependencies: https://github.com/VaporSpace2/endrium-2.git
 author: Aegires
