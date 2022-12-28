@@ -3,6 +3,8 @@ name: Castle
 description: Fires artillery accelerated by coilguns at enemy ground targets. Fires a small flak gun at aircraft. Heavily armored.
 health: 1100
 armor: 11
+maxRange: 280
+range: 280
 speed: 0.35
 immunities: [
 burning, wet
