@@ -1,0 +1,56 @@
+type: mech
+name: Castle
+description: Fires artillery accelerated by coilguns at enemy ground targets. Fires a small flak gun at aircraft. Heavily armored.
+health: 1100
+armor: 11
+speed: 0.35
+immunities: [
+burning, wet
+]
+weapons: [
+{
+name: missiles-mount
+x: 0
+y: 0
+mirror: false
+reload: 17
+bullet: {
+type: FlakBulletType
+splashDamage: 19
+speed: 3
+lifetime: 210
+splashDamageRadius: 23
+collidesGround: false
+damage: 8
+scaledSplashDamage: true
+}
+}
+{
+name: massd
+x: 11
+y: 0
+mirror: true
+alternate: true
+reload: 71
+bullet: {
+type: ArtilleryBulletType
+splashDamage: 98
+splashDamageRadius: 64
+collidesAir: false
+damage: 23
+speed: 3.8
+lifetime: 300
+scaledSplashDamage: true
+fragBullets: 3
+fragBullet: {
+type: ArtilleryBulletType
+lifetime: 5
+speed: 3
+splashDamage: 18
+splashDamageRadius: 16
+damage: 7
+scaledSplashDamage: true
+}
+}
+}
+]
