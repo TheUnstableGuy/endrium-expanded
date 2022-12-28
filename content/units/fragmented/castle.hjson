@@ -13,12 +13,13 @@ name: missiles-mount
 x: 0
 y: 0
 mirror: false
+inaccuracy: 8
 reload: 17
 bullet: {
 type: FlakBulletType
 splashDamage: 19
-speed: 3
-lifetime: 210
+speed: 2
+lifetime: 120
 splashDamageRadius: 23
 collidesGround: false
 damage: 8
