@@ -20,6 +20,7 @@ type: FlakBulletType
 splashDamage: 19
 speed: 2
 lifetime: 120
+maxRange: 240
 splashDamageRadius: 23
 collidesGround: false
 damage: 8
@@ -36,6 +37,7 @@ reload: 71
 bullet: {
 type: ArtilleryBulletType
 splashDamage: 98
+maxRange: 280
 splashDamageRadius: 64
 collidesAir: false
 damage: 23
