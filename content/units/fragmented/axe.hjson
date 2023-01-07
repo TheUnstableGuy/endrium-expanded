@@ -1,0 +1,32 @@
+type: mech
+name: Axe
+description: Fires twin railguns at enemy targets.
+details: Concerns grew that the dagger would have to be phased out due to the increasing power of base defenses, so this came into existence. Fragmented engineers used the dagger as a base for this unit, and it proved to be very powerful with the least loss in speed compared to an ordinary dagger.
+armor: 3
+health: 235
+speed: 0.44
+immunites: [
+wet
+]
+weapons: [
+{
+name: compactrail
+x: 5
+y: 0
+mirror: true
+alternate: true
+reload: 28
+bullet: {
+type: RailBulletType
+length: 160
+pierceEffect: railHit
+pointEffect: railTrail
+hitEffect: massiveExplosion
+pierce: true
+pierceCap: 4
+pierceBuildings: false
+pierceDamageFactor: 0.05
+damage: 25
+}
+}
+]
