@@ -1,0 +1,60 @@
+type: ItemTurret
+name: Shatter
+description: Fires a shell accelerated to great speeds at enemy units, piercing through many enemies. Requires power.
+size: 2
+health: 1080
+consumes: {
+power: 1
+}
+reload: 110
+range: 200
+ammoTypes: {
+copper: {
+type: RailBulletType
+damage: 55
+pierceCap: 8
+pierce: true
+pierceBuildings: false
+pierceDamageFactor: 0.1
+pierceArmor: true
+length: 200
+pierceEffect: railHit
+pointEffect: railTrail
+hitEffect: massiveExplosion
+}
+lead: {
+type: RailBulletType
+damage: 60
+pierceCap: 8
+pierce: true
+reloadMultiplier: 1.3
+pierceBuildings: false
+pierceDamageFactor: 0.1
+pierceArmor: true
+length: 200
+pierceEffect: railHit
+pointEffect: railTrail
+hitEffect: massiveExplosion
+}
+titanium: {
+type: RailBulletType
+damage: 120
+pierceCap: 11
+pierce: true
+pierceBuildings: false
+pierceDamageFactor: 0.1
+pierceArmor: true
+length: 200
+pierceEffect: railHit
+pointEffect: railTrail
+hitEffect: massiveExplosion
+}
+}
+requirements: [
+copper/130
+lead/130
+graphite/90
+silicon/100
+titanium/80
+]
+category: turret
