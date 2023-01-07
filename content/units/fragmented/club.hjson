@@ -1,0 +1,26 @@
+type: mech
+name: Club
+description: Fires searing jets of flame at nearby enemies.
+details: An upgraded variant of the mace.
+health: 640
+armor: 6
+speed: 0.39
+weapons: [
+{
+name: flamemk2
+x: 7
+y: 0
+mirror: true
+reload: 360
+alternate: false
+continuous: true
+bullet: {
+type: ContinuousLaserBulletType
+lifetime: 180
+damage: 10
+length: 80
+status: burning
+statusDuration: 240
+}
+}
+]
