@@ -3,6 +3,7 @@ name: Quadpedal
 description: Unit made specifically for maximum destruction with minimum cost. Based on crawlers. Sets targets on fire.
 health: 240
 armor: 2
+range: 64
 speed: 1.25
 weapons: [
 {
@@ -10,7 +11,7 @@ name: none
 x: 0
 y: 0
 shootOnDeath: true
-reload: 60
+reload: 30
 bullet: {
 type: BombBulletType
 instantDisappear: true
@@ -19,6 +20,13 @@ killShooter: true
 splashDamageRadius: 112
 splashDamage: 105
 status: burning
+fragBullets: 3
+fragBullet: {
+type: BasicBulletType
+lifetime: 5
+speed: 3
+damage: 7
+}
 }
 }
 ]
