@@ -1,0 +1,24 @@
+type: mech
+name: Quadpedal
+description: Unit made specifically for maximum destruction with minimum cost. Based on crawlers. Sets targets on fire.
+health: 240
+armor: 2
+speed: 1.25
+weapons: [
+{
+name: none
+x: 0
+y: 0
+shootOnDeath: true
+reload: 60
+bullet: {
+type: BombBulletType
+instantDisappear: true
+speed: 0
+killShooter: true
+splashDamageRadius: 112
+splashDamage: 105
+status: burning
+}
+}
+]
