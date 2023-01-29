@@ -1,7 +1,4 @@
 name: Endrium Expanded
-description: Expansion for the Endrium 2 mod featuring new factions, which have their own unique technology.
+description: Expansion for the Endrium 2 mod featuring new factions, which have their own unique technology. EDIT: no longer requires endrium 2 due to errors
 minGameVersion: 140.4
-dependencies: [
-endrium-mod-2
-]
 author: Aegires
