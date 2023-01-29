@@ -5,6 +5,8 @@ health: 460
 speed: 2.2
 hovering: true
 armor: 5
+mechSideSway: 0
+mechFrontSway: 0
 weapons: [
 {
 name: swarm
