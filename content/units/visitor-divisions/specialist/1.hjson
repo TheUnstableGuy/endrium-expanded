@@ -1,0 +1,32 @@
+type: mech
+name: Strider
+description: Fires burst missiles at nearby targets.
+health: 460
+speed: 2.2
+hovering: true
+armor: 5
+weapons: [
+{
+name: swarm
+x: 4
+y: 0
+inaccuracy: 6
+reload: 30
+alternate: true
+mirror: true
+shoot: {
+shots: 5
+spread: 3
+}
+bullet: {
+type: MissileBulletType
+speed: 2.5
+lifetime: 60
+homingRange: 64
+homingPower: 4
+damage: 11
+splashDamageRadius: 12
+splashDamage: 9
+}
+}
+]
