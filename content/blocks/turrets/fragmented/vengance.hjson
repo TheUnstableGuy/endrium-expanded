@@ -1,3 +1,4 @@
+/*
 type: itemTurret
 name: Vengance
 description: Rapid-fire railgun system that effectively shuts down large groups of enemy units.
@@ -64,3 +65,4 @@ surge-alloy/1000
 endrium-2-endrium/450
 ]
 category: turret
+*/
