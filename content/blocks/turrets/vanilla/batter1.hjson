@@ -5,6 +5,7 @@ health: 1100
 reload: 7
 size: 2
 inaccuracy: 14
+category: turret
 range: 220
 targetGround: false
 requirements: [
