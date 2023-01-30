@@ -1,0 +1,17 @@
+type: flying
+name: Scout
+description: Projects a shield around itself, protecting the unit and allies within it.
+health: 350
+armor: 7
+speed: 2.3
+flying: true
+lowAltitude: true
+abilities: [
+{
+type: ForceFieldAbility
+radius: 80
+regen: 0.16
+max: 300
+cooldown: 280
+}
+]
