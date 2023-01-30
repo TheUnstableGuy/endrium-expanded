@@ -1,0 +1,30 @@
+type: itemTurret
+name: Batter
+description: Fires bursts of flak at aerial targets.
+health: 1100
+reload: 7
+range: 220
+targetGround: false
+requirements: [
+copper/170
+lead/110
+graphite/100
+]
+ammoTypes: {
+coal: {
+speed: 3
+type: FlakBulletType
+damage: 4
+splashDamageRadius: 24
+splashDamage: 23
+status: burning
+}
+lead: {
+speed: 3
+type: FlakBulletType
+damage: 4
+reloadMultiplier: 1.12
+splashDamageRadius: 24
+splashDamage: 38
+}
+}
