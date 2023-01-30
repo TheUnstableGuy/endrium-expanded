@@ -1,0 +1,10 @@
+type: powerNode
+name: Power Distributor
+description: Distributes power to other blocks. Longer range than the standard power node.
+health: 60
+size: 1
+laserRange: 9
+requirements: [
+copper/5
+lead/5
+]
