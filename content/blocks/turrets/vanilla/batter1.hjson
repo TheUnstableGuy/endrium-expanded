@@ -3,6 +3,8 @@ name: Batter
 description: Fires bursts of flak at aerial targets.
 health: 1100
 reload: 7
+size: 2
+inaccuracy: 14
 range: 220
 targetGround: false
 requirements: [
