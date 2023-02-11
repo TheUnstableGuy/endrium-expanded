@@ -1,0 +1,25 @@
+type: mech
+name: Current
+description: Insulated, heavily-armored unit possessing electric weapons. Deals more damage to structures.
+health: 380
+armor: 7
+speed: 0.35
+weapons: [
+{
+name: tesla
+x: 4
+y: 0
+reload: 30
+shoot: {
+shots: 3
+}
+mirror: true
+alternate: true
+bullet: {
+type: LightningBulletType
+damage: 33
+buildingDamageMultiplier: 1.1
+lightningLength: 35
+}
+}
+]
