@@ -1,0 +1,10 @@
+type: MendProjector
+name: Regen Wall
+description: Weak wall that self-repairs when powered.
+size: 1
+health: 400
+requirements: [
+lead/6
+graphite/6
+]
+category: wall
