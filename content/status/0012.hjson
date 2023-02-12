@@ -1,0 +1,8 @@
+type: statusEffect
+name: Warped
+description: You are now warped.
+damageMultiplier: 0.34
+reloadMultiplier: 0.38
+healthMultiplier: 0.76
+speedMultiplier: 0.54
+damage: 0.1
