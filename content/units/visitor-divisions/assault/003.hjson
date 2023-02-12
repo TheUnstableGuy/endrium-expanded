@@ -21,8 +21,8 @@ type: FlakBulletType
 collidesGround: true
 speed: 7
 damage: 280
+status: 0012
 splashDamage: 1000
 splashDamageRadius: 32
 scaledSplashDamage: true
 }
-\
