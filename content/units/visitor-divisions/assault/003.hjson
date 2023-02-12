@@ -1,0 +1,28 @@
+type: flying
+name: Structure
+description: Fires three collapsing atoms at a target.
+flying: true
+speed: 0.55
+health: 3560
+armor: 11
+weapons: [
+{
+name: none
+x: 0
+y: 0
+mirror: false
+alternate: false
+shoot: {
+shots: 3
+spread: 7
+}
+bullet: {
+type: FlakBulletType
+collidesGround: true
+speed: 7
+damage: 280
+splashDamage: 1000
+splashDamageRadius: 32
+scaledSplashDamage: true
+}
+\
