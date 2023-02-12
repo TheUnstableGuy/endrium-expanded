@@ -26,3 +26,5 @@ splashDamage: 1000
 splashDamageRadius: 32
 scaledSplashDamage: true
 }
+}
+]
