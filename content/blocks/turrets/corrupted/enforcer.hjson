@@ -1,0 +1,18 @@
+type: PowerTurret
+name: Enforcer
+description: Melts targets using a continuous laser beam.
+consumes: {
+power: 5
+}
+health: 1400
+reload: 420
+range: 120
+size: 2
+shootType: {
+type: ContinuousLaserBulletType
+length: 120
+lifetime: 360
+damage: 30
+status: burning
+statusDuration: 300
+}
