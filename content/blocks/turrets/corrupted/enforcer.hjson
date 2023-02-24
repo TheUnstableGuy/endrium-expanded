@@ -21,6 +21,7 @@ sizeTo: 3
 particles: 7
 }
 ]
+}
 range: 200
 size: 2
 shootType: {
