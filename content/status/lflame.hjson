@@ -1,0 +1,5 @@
+type: StatusEffect
+name: Scorched
+description: You are suffering severe burns.
+damage: 0.45
+speedMultipler: 0.93
