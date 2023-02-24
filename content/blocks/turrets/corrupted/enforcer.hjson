@@ -32,6 +32,21 @@ length: 30
 }
 {
 type: ParticleEffect
+colorFrom: ADD8E6
+colorTo: 00008B
+particles: 13
+length: 50
+line: true
+}
+{
+type: ParticleEffect
+colorFrom: 808080
+colorTo: 5A5A5A
+particles: 7
+length: 80
+}
+{
+type: ParticleEffect
 line: true
 sizeFrom: 5.5
 sizeTo: 0
