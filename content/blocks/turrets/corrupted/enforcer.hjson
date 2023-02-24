@@ -13,6 +13,22 @@ type: FlakBulletType
 lifetime: 40
 speed: 4
 damage: 80
+collidesGround: true
+hitEffect: {
+type: MultiEffect
+effects: [
+{
+type: WaveEffect
+sizeTo: 200
+}
+{
+type: ParticleEffect
+colorFrom: ADD8E6
+colorTo: 00008B
+particles: 11
+}
+]
+}
 splashDamageRadius: 80
 splashDamage: 55
 status: lflame
