@@ -17,7 +17,7 @@ sizeFrom: 1
 sizeTo: 3
 particles: 7
 }
-range: 240
+range: 304
 size: 2
 shootType: {
 type: FlakBulletType
