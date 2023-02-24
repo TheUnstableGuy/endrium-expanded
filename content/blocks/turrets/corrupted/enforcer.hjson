@@ -6,6 +6,21 @@ power: 6
 }
 health: 1400
 reload: 120
+shootSound: laser
+shootEffect: {
+type: MultiEffect
+effects: [
+{
+type: ParticleEffect
+colorFrom: ADD8E6
+colorTo: 00008B
+lenFrom: 4
+lenTo: 0
+sizeFrom: 1
+sizeTo: 3
+particles: 7
+}
+]
 range: 200
 size: 2
 shootType: {
