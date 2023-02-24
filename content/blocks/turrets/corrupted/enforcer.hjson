@@ -23,7 +23,7 @@ shootType: {
 type: FlakBulletType
 lifetime: 70
 speed: 4.5
-damage: 90
+damage: 110
 backColor: 00008B
 frontColor: ADD8E6
 collidesGround: true
@@ -40,14 +40,14 @@ colorTo: 5A5A5A
 type: ParticleEffect
 colorFrom: ADD8E6
 colorTo: 00008B
-particles: 11
+particles: 17
 length: 30
 }
 {
 type: ParticleEffect
 colorFrom: ADD8E6
 colorTo: 00008B
-particles: 13
+particles: 21
 length: 50
 line: true
 }
@@ -55,7 +55,7 @@ line: true
 type: ParticleEffect
 colorFrom: 808080
 colorTo: 5A5A5A
-particles: 7
+particles: 11
 length: 80
 }
 {
@@ -63,7 +63,7 @@ type: ParticleEffect
 line: true
 sizeFrom: 5.5
 sizeTo: 0
-particles: 7
+particles: 4
 length: 30
 colorFrom: 808080
 colorTo: 5A5A5A
@@ -71,7 +71,7 @@ colorTo: 5A5A5A
 ]
 }
 splashDamageRadius: 80
-splashDamage: 65
+splashDamage: 85
 status: lflame
 statusDuration: 300
 }
@@ -80,6 +80,7 @@ copper/200
 lead/260
 silicon/150
 graphite/130
-titanium/100
+titanium/120
+plastanium/70
 ]
 category: turret
