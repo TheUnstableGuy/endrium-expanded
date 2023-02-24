@@ -1,0 +1,29 @@
+type: legs
+name: Seeker
+description: Fires ion lasers at enemy targets.
+health: 560
+armor: 8
+speed: 0.66
+legs: 6
+weapons: [
+{
+name: chipper
+x: 4
+y: 0
+mirror: true
+alternate: false
+reload: 30
+bullet: {
+type: LaserBulletType
+colors: [
+FFFFFF
+CBC3E3
+301934
+]
+pierce: true
+pierceCap: 20
+length: 140
+damage: 60
+}
+}
+]
