@@ -19,14 +19,26 @@ type: MultiEffect
 effects: [
 {
 type: WaveEffect
-sizeTo: 200
+sizeTo: 100
+colorFrom: 808080
+colorTo: 5A5A5A
 }
 {
 type: ParticleEffect
 colorFrom: ADD8E6
 colorTo: 00008B
 particles: 11
+length: 30
 }
+(
+type: ParticleEffect
+line: true
+sizeFrom: 5.5
+sizeTo: 0
+particles: 7
+length: 30
+colorFrom: 808080
+colorTo: 5A5A5A
 ]
 }
 splashDamageRadius: 80
