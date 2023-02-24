@@ -8,7 +8,7 @@ legs: 6
 weapons: [
 {
 name: chipper
-x: 4
+x: 5
 y: 0
 mirror: true
 alternate: false
