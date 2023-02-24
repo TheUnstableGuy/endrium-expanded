@@ -23,7 +23,9 @@ shootType: {
 type: FlakBulletType
 lifetime: 40
 speed: 4
-damage: 80
+damage: 90
+backColor: 00008B
+frontColor: ADD8E6
 collidesGround: true
 hitEffect: {
 type: MultiEffect
@@ -69,7 +71,7 @@ colorTo: 5A5A5A
 ]
 }
 splashDamageRadius: 80
-splashDamage: 55
+splashDamage: 65
 status: lflame
 statusDuration: 300
 }
