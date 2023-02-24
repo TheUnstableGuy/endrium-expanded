@@ -18,3 +18,11 @@ splashDamage: 55
 status: lflame
 statusDuration: 300
 }
+requirements: [
+copper/200
+lead/260
+silicon/150
+graphite/130
+titanium/100
+]
+category: turret
