@@ -30,7 +30,7 @@ colorTo: 00008B
 particles: 11
 length: 30
 }
-(
+{
 type: ParticleEffect
 line: true
 sizeFrom: 5.5
@@ -39,6 +39,7 @@ particles: 7
 length: 30
 colorFrom: 808080
 colorTo: 5A5A5A
+}
 ]
 }
 splashDamageRadius: 80
