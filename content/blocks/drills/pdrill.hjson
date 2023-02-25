@@ -1,12 +1,12 @@
 type: Drill
-name: Precision Drill
+name: Exotic Drill
 description: Employs exotic mining technology to mine resources at a more efficient rate than the Airblast Drill.
 tier: 7
 consumes: {
 power: 10
 }
 size: 3
-drillTime: 95
+drillTime: 85
 drillEffect: {
 type: MultiEffect
 effects: [
