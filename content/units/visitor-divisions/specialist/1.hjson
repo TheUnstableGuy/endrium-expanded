@@ -1,10 +1,22 @@
 type: mech
 name: Strider
 description: Fires superheated plasma blasts at nearby targets, burning them.
-health: 380
+health: 360
+hitSize: 10
 speed: 2.4
 hovering: true
 armor: 4
+abilities: [
+{
+type: MoveEffectAbility
+color: 80DAEB
+y: 3
+effect: {
+type: ParticleEffect
+length: 20
+}
+}
+]
 mechSideSway: 0
 mechFrontSway: 0
 weapons: [
