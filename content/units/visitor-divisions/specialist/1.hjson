@@ -14,6 +14,7 @@ x: 5
 y: 0
 inaccuracy: 6
 reload: 35
+shootSound: laser
 alternate: true
 mirror: true
 shoot: {
@@ -32,6 +33,12 @@ backColor: 002A2C
 hitEffect: {
 type: MultiEffect
 effects: [
+{
+type: WaveEffect
+sizeTo: 24
+colorFrom: D3D3D3
+colorTo: 5A5A5A
+}
 {
 type: ParticleEffect
 length: 28
