@@ -1,0 +1,16 @@
+type: ConsumeGenerator
+name: Combustion Turbine
+description: Generates much more power than the standard combustion generator.
+consumes: {
+itemFlammable: {}
+}
+hasPower: true
+hasItems: true
+itemCapacity: 20
+itemDuration: 80
+powerProduction: 1.9
+requirements: [
+copper/65
+lead/40
+]
+category: power
