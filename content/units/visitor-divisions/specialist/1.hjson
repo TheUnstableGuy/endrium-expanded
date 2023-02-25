@@ -1,6 +1,6 @@
 type: mech
 name: Strider
-description: Fires superheated plasma blasts at nearby targets.
+description: Fires superheated plasma blasts at nearby targets, burning them.
 health: 380
 speed: 2.4
 hovering: true
@@ -13,7 +13,7 @@ name: swarm
 x: 5
 y: 0
 inaccuracy: 6
-reload: 18
+reload: 12
 shootSound: flame
 alternate: true
 mirror: true
@@ -24,6 +24,8 @@ spread: 3
 bullet: {
 type: MissileBulletType
 speed: 2.5
+status: burning
+statusDuration: 300
 shootEffect: {
 type: MultiEffect
 effects: [
@@ -52,14 +54,14 @@ type: MultiEffect
 effects: [
 {
 type: ParticleEffect
-colorFrom: 00FFFF
+colorFrom: 80DAEB
 colorTo: 002A2C
 length: 28
 particles: 11
 }
 ]
 }
-damage: 11
+damage: 7
 frontColor: 00FFFF
 backColor: 002A2C
 hitEffect: {
@@ -87,7 +89,8 @@ colorTo: 5A5A5A
 ]
 }
 splashDamageRadius: 24
-splashDamage: 7
+splashDamage: 9
+scaledSplashDamage: true
 }
 }
 ]
