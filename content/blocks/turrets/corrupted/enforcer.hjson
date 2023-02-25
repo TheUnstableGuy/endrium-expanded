@@ -23,6 +23,7 @@ shootType: {
 type: FlakBulletType
 lifetime: 70
 speed: 4.5
+sprite: ball
 damage: 105
 scaledSplashDamage: true
 pierceArmor: true
