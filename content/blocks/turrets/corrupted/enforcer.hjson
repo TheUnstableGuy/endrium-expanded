@@ -4,7 +4,7 @@ description: Fires an explosive ion blast at crowds of enemies.
 consumes: {
 power: 6.5
 }
-health: 1400
+health: 1600
 reload: 100
 shootSound: laser
 shootEffect: {
@@ -78,7 +78,7 @@ status: lflame
 statusDuration: 300
 }
 requirements: [
-copper/200
+copper/300
 lead/260
 silicon/150
 graphite/130
