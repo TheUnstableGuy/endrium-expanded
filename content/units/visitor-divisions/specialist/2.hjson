@@ -1,0 +1,64 @@
+type: flying
+name: Wanderer
+description: Fires cluster-missiles and particle blasts at enemy targets. Deals more damage versus structures.
+health: 740
+armor: 7
+flying: true
+speed: 1.5
+weapons: [
+{
+name: swarm
+x: 6
+y: 0
+mirror: true
+alternate: true
+reload: 55
+bullet: {
+type: MissileBulletType
+lifetime: 55
+speed: 3
+damage: 19
+homingRange: 32
+homingPower: 0.2
+splashDamageRadius: 24
+splashDamage: 27
+scaledSplashDamage: true
+fragBullets: 4
+fragBullet: {
+type: MissileBulletType
+lifetime: 15
+speed: 3
+homingRange: 32
+homingPower: 0.13
+damage:14
+}
+}
+}
+{
+name: pulse
+x: 0
+y: 0
+mirror: false
+reload: 180
+bullet: {
+type: FlakBulletType
+collidesGround: true
+speed: 5
+lifetime: 60
+damage: 90
+splashDamageRadius: 64
+splashDamage: 50
+hitEffect: {
+type: MultiEffect
+effects: [
+{
+type: WaveEffect
+colorFrom: A020F0
+colorTo: 301934
+sizeTo: 64
+}
+]
+}
+}
+}
+]
