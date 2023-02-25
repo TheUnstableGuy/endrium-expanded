@@ -13,8 +13,8 @@ name: swarm
 x: 5
 y: 0
 inaccuracy: 6
-reload: 35
-shootSound: laser
+reload: 20
+shootSound: flame
 alternate: true
 mirror: true
 shoot: {
