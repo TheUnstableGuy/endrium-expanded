@@ -24,6 +24,8 @@ type: FlakBulletType
 lifetime: 70
 speed: 4.5
 damage: 110
+scaledSplashDamage: true
+pierceArmor: true
 backColor: 00008B
 frontColor: ADD8E6
 collidesGround: true
