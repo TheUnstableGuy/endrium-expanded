@@ -2,10 +2,10 @@ type: PowerTurret
 name: Enforcer
 description: Fires an explosive ion blast at crowds of enemies.
 consumes: {
-power: 6
+power: 6.5
 }
 health: 1400
-reload: 120
+reload: 100
 shootSound: laser
 shootEffect: {
 type: ParticleEffect
@@ -23,7 +23,7 @@ shootType: {
 type: FlakBulletType
 lifetime: 70
 speed: 4.5
-damage: 110
+damage: 105
 scaledSplashDamage: true
 pierceArmor: true
 backColor: 00008B
@@ -72,8 +72,8 @@ colorTo: 5A5A5A
 }
 ]
 }
-splashDamageRadius: 80
-splashDamage: 85
+splashDamageRadius: 72
+splashDamage: 100
 status: lflame
 statusDuration: 300
 }
@@ -86,3 +86,4 @@ titanium/120
 plastanium/70
 ]
 category: turret
+research: lancer
