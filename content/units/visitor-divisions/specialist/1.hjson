@@ -2,9 +2,9 @@ type: mech
 name: Strider
 description: Fires burst missiles at nearby targets.
 health: 380
-speed: 2.2
+speed: 2.4
 hovering: true
-armor: 5
+armor: 4
 mechSideSway: 0
 mechFrontSway: 0
 weapons: [
@@ -27,6 +27,18 @@ speed: 2.5
 lifetime: 55
 homingRange: 64
 homingPower: 4
+trailEffect: {
+type: MultiEffect
+effects: [
+{
+type: ParticleEffect
+colorFrom: 00FFFF
+colorTo: 002A2C
+length: 28
+particles: 11
+}
+]
+}
 damage: 18
 frontColor: 00FFFF
 backColor: 002A2C
