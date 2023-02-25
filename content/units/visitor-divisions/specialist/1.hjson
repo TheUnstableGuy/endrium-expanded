@@ -9,11 +9,12 @@ armor: 4
 abilities: [
 {
 type: MoveEffectAbility
-color: 80DAEB
-y: 3
+y: -3
 effect: {
 type: ParticleEffect
 length: 20
+colorFrom: 80DAEB
+colorTo: 002A2C
 }
 }
 ]
