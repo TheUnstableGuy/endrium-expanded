@@ -70,7 +70,7 @@ type: ParticleEffect
 colorFrom: 80DAEB
 colorTo: 002A2C
 length: 28
-particles: 11
+particles: 6
 }
 ]
 }
