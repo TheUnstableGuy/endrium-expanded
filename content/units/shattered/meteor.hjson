@@ -4,6 +4,18 @@ name: Meteor
 description: Lightweight assault gunship. Cheap to produce.
 details: Shattered phased out the flare and replaced it with the meteor in favor of strength.
 health: 130
+abilities: [
+{
+type: MoveEffectAbility
+y: -2.7
+effect: {
+type: ParticleEffect
+length: 20
+colorFrom: FFA666
+colorTo: D16D54
+}
+}
+]
 armor: 2
 speed: 2.1
 weapons: [
