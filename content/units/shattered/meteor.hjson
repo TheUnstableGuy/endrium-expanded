@@ -1,0 +1,26 @@
+type: flying
+flying: true
+name: Meteor
+description: Lightweight assault gunship. Cheap to produce.
+details: Shattered phased out the flare and replaced it with the meteor in favor of strength.
+health: 130
+armor: 2
+speed: 2.1
+weapons: [
+{
+name: none
+x: 1
+y: 0
+mirror: true
+alternate: true
+reload: 17
+bullet: {
+type: BasicBulletType
+width: 7
+length: 10
+damage: 11
+speed: 3
+lifetime: 50
+}
+}
+]
