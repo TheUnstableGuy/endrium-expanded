@@ -29,11 +29,9 @@ alternate: true
 reload: 17
 bullet: {
 type: LaserBoltBulletType
-width: 7
-length: 10
 colorFrom: FFA666
 colorTo: D16D54
-damage: 11
+damage: 15
 speed: 3
 lifetime: 50
 }
