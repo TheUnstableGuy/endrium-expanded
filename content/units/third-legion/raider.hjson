@@ -8,7 +8,7 @@ legCount: 4
 weapons: [
 {
 name: heavy-weapon
-x: 3
+x: 4.8
 y: 0
 mirror: true
 alternate: true
