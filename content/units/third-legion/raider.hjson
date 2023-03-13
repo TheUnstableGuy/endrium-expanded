@@ -1,0 +1,25 @@
+type: legs
+name: Raider
+description: Fires heavy slugs at nearby targets. Can step over most terrain.
+health: 400
+armor: 6
+speed: 0.32
+legCount: 4
+weapons: [
+{
+name: heavy-weapon
+x: 3
+y: 0
+mirror: true
+alternate: true
+reload: 22
+bullet: {
+type: BasicBulletType
+width: 9
+length: 11
+damage: 17
+speed: 3
+lifetime: 55
+}
+}
+]
